@@ -1,17 +1,18 @@
-# consultacep
+# ConsultaCEP - Aplicativo de Consulta de Endereço por CEP
 
-A new Flutter project.
+## Descrição do Projeto
+Aplicativo Flutter para consulta de endereços através do CEP, utilizando a API ViaCEP. O aplicativo permite que os usuários digitem um CEP e recebam as informações completas do endereço correspondente.
 
-## Getting Started
+## Funcionalidades
+- Consulta de endereço por CEP
+- Formatação automática do CEP (XXXXX-XXX)
+- Exibição clara das informações do endereço
+- Tratamento de erros para CEPs inválidos ou não encontrados
 
-This project is a starting point for a Flutter application.
+## Tecnologias Utilizadas
+- Flutter 3.x
+- Dart 3.x
+- Pacote http para requisições à API
+- ViaCEP (API pública de consulta de CEPs)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Consulta-CEP
+![alt text](image.png)
